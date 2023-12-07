@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		030552B82B223433007173B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030552B72B223433007173B2 /* ContentView.swift */; };
+		030552BA2B2236E4007173B2 /* CalculadoraBotones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030552B92B2236E4007173B2 /* CalculadoraBotones.swift */; };
+		030552BC2B22372C007173B2 /* CalculadoraBotones2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030552BB2B22372C007173B2 /* CalculadoraBotones2.swift */; };
 		03C338A42AFC6F8800C4F1D4 /* CalculadoraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C338A32AFC6F8800C4F1D4 /* CalculadoraApp.swift */; };
 		03C338A82AFC6F8A00C4F1D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C338A72AFC6F8A00C4F1D4 /* Assets.xcassets */; };
 		03C338AC2AFC6F8A00C4F1D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C338AB2AFC6F8A00C4F1D4 /* Preview Assets.xcassets */; };
@@ -35,6 +37,8 @@
 
 /* Begin PBXFileReference section */
 		030552B72B223433007173B2 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		030552B92B2236E4007173B2 /* CalculadoraBotones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculadoraBotones.swift; sourceTree = "<group>"; };
+		030552BB2B22372C007173B2 /* CalculadoraBotones2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculadoraBotones2.swift; sourceTree = "<group>"; };
 		03C338A02AFC6F8800C4F1D4 /* Calculadora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculadora.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C338A32AFC6F8800C4F1D4 /* CalculadoraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculadoraApp.swift; sourceTree = "<group>"; };
 		03C338A72AFC6F8A00C4F1D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				030552B72B223433007173B2 /* ContentView.swift */,
+				030552BB2B22372C007173B2 /* CalculadoraBotones2.swift */,
+				030552B92B2236E4007173B2 /* CalculadoraBotones.swift */,
 				03C338A32AFC6F8800C4F1D4 /* CalculadoraApp.swift */,
 				03C338A72AFC6F8A00C4F1D4 /* Assets.xcassets */,
 				03C338A92AFC6F8A00C4F1D4 /* Calculadora.entitlements */,
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				03C338A42AFC6F8800C4F1D4 /* CalculadoraApp.swift in Sources */,
+				030552BA2B2236E4007173B2 /* CalculadoraBotones.swift in Sources */,
 				030552B82B223433007173B2 /* ContentView.swift in Sources */,
+				030552BC2B22372C007173B2 /* CalculadoraBotones2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
