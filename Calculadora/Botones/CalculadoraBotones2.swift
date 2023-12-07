@@ -9,7 +9,6 @@ import SwiftUI
 
 struct CalculadoraBotones2: View {
     var string: String
-    var largo: Bool = false
     var body: some View{
         ZStack{
             Color("AzulMedio")

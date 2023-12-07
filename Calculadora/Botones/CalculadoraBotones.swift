@@ -9,7 +9,6 @@ import SwiftUI
 
 struct CalculadoraBotones: View {
     var string: String
-    var largo: Bool = false
     var body: some View{
         ZStack{
             Color("GrisClaro")
@@ -21,6 +20,5 @@ struct CalculadoraBotones: View {
         .background(Color("AzulMedio"))
         .clipShape(Circle())
         .foregroundColor(Color("AzulClaro"))
-        .aspectRatio(largo ? 2.0: 1.0, contentMode: .fit)
     }
 }
